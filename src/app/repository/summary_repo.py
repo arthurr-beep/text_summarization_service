@@ -3,11 +3,9 @@ from app.models.tortoise import TextSummary
 from typing import Union, List
 
 
+
 async def post(payload: SummaryPayload) -> int:
-    summary = TextSummary(
-        url=payload.url,
-        summary="Test Summary",
-    )
+    summary = TextSummary(url=payload.url, summary="")
     await summary.save()
     return summary.id
 
