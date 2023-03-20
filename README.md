@@ -1,4 +1,4 @@
-## A Sample FASTAPI projects - to demonstrate basic REST OPERATIONS
+## A Sample FASTAPI project - to demonstrate basic REST OPERATIONS
 
 This is just a basic REST API using FastAPI
 
